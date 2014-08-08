@@ -15,4 +15,4 @@ name: Ntlm
 moduleid: ti.ntlm
 guid: 92cb9fd9-5dc7-4e70-b328-1cafba571492
 platform: android
-minsdk: 3.0.0
+minsdk: 3.2.2
