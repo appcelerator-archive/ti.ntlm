@@ -1,9 +1,9 @@
-language: java
+language: objective-c
 env:
 global:
    - MODULE_NAME=ti.ntlm
 before_install:
-    - MODULE_ROOT=/Users/mdadu/documents/Git/ti.ntlm
+    - MODULE_ROOT=$PWD
 install:
     - cd 
     - curl -o install.sh https://raw.githubusercontent.com/appcelerator-modules/ci/master/travis/install.sh
